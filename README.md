@@ -9,10 +9,37 @@ Tyvärr även om jag skrev kod som kändes rätt, ingenting vissas på skärmen,
  <uses-permission android:name="android.permission.INTERNET" />
 ```
 
-- Tillåta internet.
+- Skapar Mountain Klass För att kunna sätta atteributes.
 ```
- <uses-permission android:name="android.permission.INTERNET" />
-```
+public class Mountain {
+    private String name;
+    private String location;
+    private int height;
+
+    public Mountain(){
+        name = "No name";
+        location = "No Location";
+        height = -1;
+    }
+
+    public Mountain(String name, String location, int height){
+        this.name = name;
+        this.location = location;
+        this.height = height;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+}```
 
 
 Bilder läggs i samma mapp som markdown-filen.
