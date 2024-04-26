@@ -4,9 +4,16 @@
 I denna uppgift har jag lärt mig att använda data från json filer och URL:r och hur *RecyclerView* skapas och vad är dess fördelar.
 Tyvärr även om jag skrev kod som kändes rätt, ingenting vissas på skärmen, jag trodde att det är pga att programmet inte läser data från filer eller URL.
 
+- Tillåta internet.
+```
+ <uses-permission android:name="android.permission.INTERNET" />
 ```
 
+- Tillåta internet.
 ```
+ <uses-permission android:name="android.permission.INTERNET" />
+```
+
 
 Bilder läggs i samma mapp som markdown-filen.
 
