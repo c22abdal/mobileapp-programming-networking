@@ -43,7 +43,7 @@ public class Mountain {
 ```
 
 
-- Tillåta internet.
+- Skapar En adapter för att lägga Mountain attributes från en Json fil till RecyclerView
 ```
 package com.example.networking;
 
