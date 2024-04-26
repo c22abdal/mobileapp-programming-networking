@@ -25,10 +25,14 @@ public class JsonTask extends AsyncTask<String, String, String> {
         this.listener = listener;
     }
 
+    public void getJson(){
+    }
     protected String doInBackground(String... params) {
         try {
             URL url = new URL(params[0]);
             connection = (HttpURLConnection) url.openConnection();
+            //connection.setRequestMethod("GET");
+
             connection.connect();
 
             InputStream stream = connection.getInputStream();

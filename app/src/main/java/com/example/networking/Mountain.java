@@ -16,4 +16,16 @@ public class Mountain {
         this.location = location;
         this.height = height;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public int getHeight() {
+        return height;
+    }
 }
