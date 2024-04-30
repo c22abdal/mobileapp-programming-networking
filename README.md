@@ -2,7 +2,8 @@
 # Rapport
 
 I denna uppgift har jag lärt mig att använda data från json filer och URL:r och hur *RecyclerView* skapas och vad är dess fördelar.
-Tyvärr även om jag skrev kod som kändes rätt, ingenting vissas på skärmen, jag trodde att det är pga att programmet inte läser data från filer eller URL.
+Ytterligare har jag lärt mig mer om XML.
+Jag hade en problem med filen och AndroidStudio innan. Nu är det fixat.
 
 - Tillåta internet.
 ```
@@ -114,3 +115,5 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 }
 ```
 
+## Bilder
+![Screenshot_20240430_233121.png](Screenshot_20240430_233121.png)
