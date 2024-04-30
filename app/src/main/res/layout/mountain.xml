@@ -7,23 +7,37 @@
 
     <TextView
         android:id="@+id/nameTxt"
-        android:textColor="@color/colorPrimaryDark"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:textSize="18sp"/>
+        android:layout_weight="1"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:ellipsize="end" />
+
     <TextView
         android:id="@+id/heightTxt"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_weight="1"
+        android:layout_marginEnd="12dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:padding="12dp"
+        android:singleLine="true"
+        android:ellipsize="end" />
 
-        android:textSize="18sp"/>
     <TextView
         android:id="@+id/locationTxt"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:padding="8dp"
+        android:ellipsize="end" />
 
-        android:textSize="18sp"/>
 </LinearLayout>
