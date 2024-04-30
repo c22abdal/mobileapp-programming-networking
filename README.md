@@ -117,3 +117,5 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
 ## Bilder
 ![Screenshot_20240430_233121.png](Screenshot_20240430_233121.png)
+![image](https://github.com/c22abdal/mobileapp-programming-networking/assets/164885086/9550a68b-2469-4204-8d6f-e36550dfccf7)
+
