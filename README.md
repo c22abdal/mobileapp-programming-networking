@@ -116,4 +116,4 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 ```
 
 ##Bilder
-
+![Screenshot_20240430_233121.png](Screenshot_20240430_233121.png)
